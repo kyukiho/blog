@@ -2,13 +2,11 @@
   "name": "aiblog",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://kyukiho.github.io/blog/", 
+  "homepage": "https://username.github.io/my-react-project", 
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build",
     "preview": "vite preview"
   },
   "dependencies": {

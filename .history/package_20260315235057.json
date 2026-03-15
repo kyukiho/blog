@@ -2,7 +2,7 @@
   "name": "aiblog",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://kyukiho.github.io/blog/", 
+  "homepage": "https://kyukohi.github.io/blog", 
   "type": "module",
   "scripts": {
     "dev": "vite",
