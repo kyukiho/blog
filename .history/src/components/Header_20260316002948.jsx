@@ -12,7 +12,7 @@ const Header = () => {
       transition={{ duration: 0.5, type: 'spring' }}
     >
       <div className="header-content">
-        <Link to={`${import.meta.env.BASE_URL}`} className="logo">
+        <Link to="/" className="logo">
           <motion.span
             className="logo-text glow"
             whileHover={{ scale: 1.05 }}
@@ -26,7 +26,7 @@ const Header = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            <Link to={`${import.meta.env.BASE_URL}`} className="nav-link">首页</Link>
+            <Link to="{`${import.meta.env.BASE_URL}`}" className="nav-link">首页</Link>
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
